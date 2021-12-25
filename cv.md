@@ -2,7 +2,7 @@
 
 ### Front-end Web Developer
 
-![Alice image](src\Profile pic.png)
+![Alice's image](/src/photo.png)
 
 - _email_: dreamon202020@gmail.com
 - _discord_: purple25
