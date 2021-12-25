@@ -32,8 +32,8 @@ function solution(str){
 
 ## Education
 
-- Rolling Scopes School: JavaScript/Front-end. Stage 0 (in progress)
-- Codecademy (in progress)
+- Rolling Scopes School: [JavaScript/Front-end. Stage 0](https://rs.school/js-stage0/) (in progress)
+- Codecademy: [Front-End Engineer](https://www.codecademy.com/learn/paths/front-end-engineer-career-path) (in progress)
 
 ## English
 
