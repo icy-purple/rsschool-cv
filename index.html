@@ -15,6 +15,19 @@
   <body>
     <header class="main-header">
       <div class="container">
+        <div class="profile">
+          <div class="profile-item">
+            <h1 class="name">Alice Paneke Ramires</h1>
+            <h3 class="title">Front-end Web Developer</h3>
+          </div>
+          <div class="profile-item">
+            <img
+              src="./src/photo.png"
+              alt="Alice's photo"
+              class="profile-pic"
+            />
+          </div>
+        </div>
         <nav class="nav">
           <ul class="nav-list">
             <li class="list-item">
@@ -41,33 +54,92 @@
     </header>
 
     <main>
-      <div class="container">
-        <section class="section">
-          <h1 class="section-title">Alice Paneke Ramires</h1>
+      <div class="container main-container">
+        <section class="section" id="about">
+          <h2 class="section-title">About me</h2>
+          <p class="about">
+            Hey, my name is Alice. I'm starting a new chapter of my career as a
+            <strong>Front-End Web Developer</strong> after 15 years of
+            translation and communication experience in Russian and
+            international IT companies (as <em>Marketing Manager</em> and
+            <em>Localization Specialist</em>)
+          </p>
         </section>
 
-        <section class="section">
-          <h2 class="section-title" id="contacts">Contacts</h2>
+        <section class="section" id="contacts">
+          <h2 class="section-title">Contacts</h2>
+          <ul>
+            <li class="contacts-item"><b>Email:</b> dreamon202020@gmail.com</li>
+            <li class="contacts-item"><b>Discord:</b> purple25</li>
+          </ul>
         </section>
 
-        <section class="section">
-          <h2 class="section-title" id="about">About me</h2>
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul>
+            <li class="skill">HTML</li>
+            <li class="skill">CSS</li>
+            <li class="skill">JavaScript</li>
+            <li class="skill">Git</li>
+            <li class="skill">VSCode</li>
+            <li class="skill">Scrum</li>
+          </ul>
         </section>
 
-        <section class="section">
-          <h2 class="section-title" id="skills">Skills</h2>
-        </section>
-
-        <section class="section">
-          <h2 class="section-title" id="code">Code example</h2>
+        <section class="section" id="code">
+          <h2 class="section-title">Code example</h2>
+          <pre>
+            <code>
+            function solution(str) { 
+              let arr = Array.from(str); 
+              arr.reverse();
+              return arr.join(''); 
+            }
+          </code>
+        </pre>
         </section>
 
         <section class="section" id="edu">
           <h2 class="section-title">Education</h2>
+          <ul>
+            <li class="edu-item">
+              <b>Rolling Scopes School: </b
+              ><a href="https://rs.school/js-stage0/"
+                >JavaScript/Front-end. Stage 0</a
+              >
+              <span class="in-progress">in progress</span>
+            </li>
+            <li class="edu-item">
+              <b>CodeCademy: </b
+              ><a
+                href="https://www.codecademy.com/learn/paths/front-end-engineer-career-path"
+                >Front-End Engineer</a
+              >
+              <span class="in-progress">in progress</span>
+            </li>
+          </ul>
         </section>
 
-        <section class="section">
-          <h2 class="section-title" id="lang">Languages</h2>
+        <section class="section" id="lang">
+          <h2 class="section-title">Languages</h2>
+          <ul>
+            <li class="lang-item">
+              <img src="./src/ru.svg" alt="flag of Russia" class="lang-img" />
+              Russian: native
+            </li>
+            <li class="lang-item">
+              <img
+                src="./src/gb.svg"
+                alt="flag of Great Britain"
+                class="lang-img"
+              />
+              English: C1
+            </li>
+            <li class="lang-item">
+              <img src="./src/it.svg" alt="flag of Italy" class="lang-img" />
+              Italian: A1
+            </li>
+          </ul>
         </section>
       </div>
     </main>
@@ -76,7 +148,7 @@
       <div class="container footer-container">
         <div class="footer-item">
           © 2022
-          <a href="https://github.com/icy-purple" class="nav-link"
+          <a href="https://github.com/icy-purple" class="footer-link"
             >icy_purple</a
           >
         </div>
