@@ -5,8 +5,172 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alice's CV</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./src/A.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>My CV</h1>
+    <header class="main-header">
+      <div class="container">
+        <div class="profile">
+          <div class="profile-item">
+            <h1 class="name">Alice Ramires</h1>
+            <h3 class="title">Front-end Web Developer</h3>
+          </div>
+          <div class="profile-item">
+            <img
+              src="./src/photo.png"
+              alt="Alice's photo"
+              class="profile-pic"
+            />
+          </div>
+        </div>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="list-item">
+              <a href="#about" class="nav-link">About me</a>
+            </li>
+            <li class="list-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="list-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="list-item">
+              <a href="#code" class="nav-link">Code example</a>
+            </li>
+            <li class="list-item">
+              <a href="#edu" class="nav-link">Education</a>
+            </li>
+            <li class="list-item">
+              <a href="#lang" class="nav-link">Languages</a>
+            </li>
+            <li class="list-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="container main-container">
+        <section class="section" id="about">
+          <h2 class="section-title">About me</h2>
+          <p class="about">
+            Hey, my name is Alice. I'm starting a new chapter of my career as a
+            <strong>Front-End Web Developer</strong> after 15 years of
+            translation and communication experience in Russian and
+            international IT companies (as <em>Marketing Manager</em> and
+            <em>Localization Specialist</em>)
+          </p>
+        </section>
+
+        <section class="section" id="contacts">
+          <h2 class="section-title">Contacts</h2>
+          <ul>
+            <li class="contacts-item"><b>Email:</b> dreamon202020@gmail.com</li>
+            <li class="contacts-item"><b>Discord:</b> purple25</li>
+          </ul>
+        </section>
+
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul>
+            <li class="skill">HTML</li>
+            <li class="skill">CSS</li>
+            <li class="skill">JavaScript</li>
+            <li class="skill">Git</li>
+            <li class="skill">VSCode</li>
+            <li class="skill">Scrum</li>
+          </ul>
+        </section>
+
+        <section class="section" id="code">
+          <h2 class="section-title">Code example</h2>
+          <pre>
+            <code>
+            function solution(str) { 
+              let arr = Array.from(str); 
+              arr.reverse();
+              return arr.join(''); 
+            }
+          </code>
+        </pre>
+        </section>
+
+        <section class="section" id="projects">
+          <h2 class="section-title">Projects</h2>
+          <ul class="projects">
+              <li class="project-item"><a href="https://icy_purple.github.io/rsschool-cv/">CV</a></li>
+              <li class="project-item">Portfolio <span class="in-progress">coming soon</span></li>
+          </ul>
+        </pre>
+        </section>
+
+        <section class="section" id="edu">
+          <h2 class="section-title">Education</h2>
+          <ul>
+            <li class="edu-item">
+              <b>Rolling Scopes School: </b
+              ><a href="https://rs.school/js-stage0/"
+                >JavaScript/Front-end. Stage 0</a
+              >
+              <span class="in-progress">in progress</span>
+            </li>
+            <li class="edu-item">
+              <b>CodeCademy: </b
+              ><a
+                href="https://www.codecademy.com/learn/paths/front-end-engineer-career-path"
+                >Front-End Engineer</a
+              >
+              <span class="in-progress">in progress</span>
+            </li>
+          </ul>
+        </section>
+
+        <section class="section" id="lang">
+          <h2 class="section-title">Languages</h2>
+          <ul>
+            <li class="lang-item">
+              <img src="./src/ru.svg" alt="flag of Russia" class="lang-img" />
+              Russian: native
+            </li>
+            <li class="lang-item">
+              <img
+                src="./src/gb.svg"
+                alt="flag of Great Britain"
+                class="lang-img"
+              />
+              English: C1
+            </li>
+            <li class="lang-item">
+              <img src="./src/it.svg" alt="flag of Italy" class="lang-img" />
+              Italian: A1
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container footer-container">
+        <div class="footer-item">
+          © 2022
+          <a href="https://github.com/icy-purple" class="footer-link"
+            >icy_purple</a
+          >
+        </div>
+        <div class="footer-item">
+          <a href="https://rs.school/js-stage0/"
+            ><img src="./src/rs_school_js.svg" alt="RSSchool logo" class="rss"
+          /></a>
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
   </body>
 </html>
