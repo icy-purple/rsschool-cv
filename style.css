@@ -41,14 +41,14 @@ h2 {
 }
 
 a {
-  color: black;
+  color: blueviolet;
   text-decoration: none;
 }
 
 a:hover {
   color: blueviolet;
   text-decoration: underline;
-  font-weight: 600;
+  font-weight: bold;
   background-color: rgba(244, 164, 96, 0.5);
 }
 
@@ -57,6 +57,7 @@ a:hover {
   justify-content: flex-end;
   align-items: center;
   list-style: none;
+  padding-top: 10px;
 }
 
 .nav-link {
@@ -65,15 +66,16 @@ a:hover {
   text-decoration: none;
   background-color: white;
   border: 1px dotted sandybrown;
-  font-weight: 100;
-  font-size: 24px;
   border-radius: 15px;
+  font-size: 18px;
 }
 
 section {
   padding: 30px;
   margin-top: 20px;
-  min-width: 50%;
+  min-width: 49%;
+  max-width: 49%;
+  background-color: rgba(206, 206, 206, 0.5);
 }
 
 .rss {
@@ -101,15 +103,16 @@ section {
 
 .contacts-item,
 .lang-item,
-.edu-item {
+.edu-item,
+.project-item {
   list-style: none;
   line-height: 2em;
 }
 
-#about,
-#code,
+#projects,
+#lang,
 #edu {
-  background-color: rgb(206, 206, 206);
+  min-width: 30%;
 }
 
 .lang-img {
@@ -129,10 +132,6 @@ section {
 
 .skill:hover {
   background-color: rgba(138, 44, 226, 0.5);
-}
-
-p.about {
-  max-width: 30vw;
 }
 
 .in-progress {
