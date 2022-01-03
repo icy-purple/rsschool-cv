@@ -4,6 +4,52 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Lato', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  text-decoration: none;
+  background-color: darkcyan;
+  color: white;
+  font-weight: 100;
+  font-size: 24px;
+  border-radius: 15px;
+}
+
+section {
+  border: 1px solid red;
+}
+
+.rss {
+  height: 45px;
+}
+
+.footer-container {
+  background-color: darkcyan;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
 }
